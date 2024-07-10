@@ -1,0 +1,60 @@
+.hidden {
+  display: none;
+}
+
+#loadingSpinner {
+  width: 20px;
+  height: 20px;
+  margin: 20px;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  border-top: 2px solid #3498db;
+  border-radius: 50%;
+  animation: spin 1.5s linear infinite;
+}
+
+#userInfoSubmit {
+  padding: 5px 35px;
+  background: #000;
+  border: #000;
+  border-radius: 4px;
+  color: #fff;
+}
+.save-btn {
+  padding: 4px 30px !important;
+  background: #000 !important;
+  border: #000 !important;
+  border-radius: 4px !important;
+  color: #fff !important;
+}
+.btn_verify {
+  padding: 6px 30px;
+  background: #000;
+  border: #000;
+  border-radius: 4px;
+  color: #fff;
+  text-decoration: none;
+}
+.btn_verify:hover {
+  color: #fff;
+}
+.manual_btn {
+  margin-top: 16px;
+}
+#resultMainWrapper {
+  padding: 5px 20px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  width: 300px;
+  margin-top: 20px;
+}
+.otpText {
+  width: 350px;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
